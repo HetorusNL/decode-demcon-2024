@@ -19,4 +19,8 @@ class DemconFestivalPlanner:
         for show in sorted(shows):
             stages.add_show(show)
 
+        # show the stages and their shows as a list
         print(stages)
+
+        # print a fancy ascii art stage with show timelines
+        stages.fancy_print()

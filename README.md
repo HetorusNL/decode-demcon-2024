@@ -31,6 +31,17 @@ Alternatively the program can be started with a debugger in VScode by pressing '
 
 ## Example output
 
+A fancy 3D ASCII-art stage is printed to standard out as shown in the screenshot below.
+Make sure to have your terminal window large enough to show the complete stage.
+
+![ASCII-art stage](./example-output-large.png)
+
+And a more compact version of the output (`time_unit_length += 1  # some more space` commented out in `src/stages.py`).
+
+![ASCII-art stage](./example-output-small.png)
+
+And the textual stage-show planning of the example is shown below.
+
 ```
 stage 1:
  * show 9: [ 1, 9 ]
